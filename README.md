@@ -1,6 +1,6 @@
-# **ice-motifs**: learning the structural motifs of supercooled liquids and crystals
+# **ice-motifs**
 
-## Mapping motif in disorder-order transitions
+## Mapping motif in disorder-order transitions: learning the structural motifs of supercooled liquids and crystals
 
 ---
 
@@ -28,7 +28,7 @@
 
 ---
 
-## Install
+## Install Packages
 
 ```bash
 git clone <this repository> && cd icemotifs
@@ -38,7 +38,7 @@ python -m pytest tools/            #  no trajectory needed
 
 `requirements.txt` contains the essential packages `dscribe`, `ase`, and `torch` 2.6.
 
-## Reproducing analyses
+## Reproducing Analyses
 
 Each folder in `examples/` is one dataset from the paper, containing a subset of ten frames
 of its trajectory so you can run it immediately:
@@ -58,7 +58,7 @@ Run the notebooks to reproduce our analyses based on our stored results:
 python tools/run-example-notebooks.py --runs-root /path/to/the/runs/tree
 ```
 
-For the full trajectories from the deposit: (<https://doi.org/10.5281/zenodo.20483266>).
+See our trajectory dataset from the deposit: (<https://doi.org/10.5281/zenodo.20483265>).
 
 ## Run it on your own trajectory
 
@@ -100,6 +100,7 @@ The analysis pipeline has seven stages, each a separate command and module.
 
 - **Clustering is two-stage.** HDBSCAN finds the clusters; k-means tiles the
   intermediate regions.
+- **Other projection methods are possible.** We apply UMAP projection here, but other projection methods such as PCA/kPCA can be applied too.
 
 ## Three parameters that can be tuned
 
@@ -120,9 +121,9 @@ The analysis pipeline has seven stages, each a separate command and module.
 
 | | |
 |---|---|
-| `icemotifs/` | the library and the seven stages — [`icemotifs/README.md`](icemotifs/README.md) maps it file by file |
-| `examples/` | seven datasets, one folder each, with sample data — [`examples/README.md`](examples/README.md) |
-| `tools/` | the guide, the tests, and the maintenance scripts — [`tools/README.md`](tools/README.md) |
+| `icemotifs/` | the main code library with scripts for the seven stages in the pipeline — [`icemotifs/README.md`](icemotifs/README.md) |
+| `examples/` | seven datasets (per folder) with sample data — [`examples/README.md`](examples/README.md) |
+| `tools/` | the processing and maintenance scripts — [`tools/README.md`](tools/README.md) |
 
 
 ## Citations
@@ -130,11 +131,10 @@ The analysis pipeline has seven stages, each a separate command and module.
 **Working Paper.** Yue, Xing, Mohammed, Jiang & Loh, *Mapping Hierarchical Motifs in
 disorder-order transitions: learning structural motifs in supercooled liquids
 and crystals*, ChemRxiv (preprint), 2026.
-<https://doi.org/10.26434/chemrxiv.15004179>
-*(Replace with the journal version on acceptance.)*
+<https://chemrxiv.org/doi/full/10.26434/chemrxiv.15004179>
 
 **Source data.** The trajectories and polymorph datasets are a separate deposit
-with its own DOI: <https://doi.org/10.5281/zenodo.20483266>. 
+with its own DOI: <https://doi.org/10.5281/zenodo.23488444>. 
 
 ```bibtex
 @article{yue2026motifs,

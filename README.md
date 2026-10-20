@@ -8,9 +8,9 @@
 
 <table>
 <tr>
-<td align="left"><img src="examples/heterogeneous-1/reference/motif-evolution.gif" width="250"><br><sub><b>Heterogenou Nucelation of structure 1 (heterogeneous-1)</b></sub></td>
-<td align="left"><img src="examples/heterogeneous-2/reference/motif-evolution.gif" width="250"><br><sub><b>Heterogenou Nucelation of structure 2 (heterogeneous-2)</b></sub></td>
-<td align="left"><img src="examples/heterogeneous-3/reference/motif-evolution.gif" width="250"><br><sub><b>Heterogenou Nucelation of structure 3 (heterogeneous-3)</b></sub></td>
+<td align="left"><img src="examples/heterogeneous-1/reference/motif-evolution.gif" width="250"><br><sub><b>Heterogenous Nucelation of polymorph 1 (heterogeneous-1)</b></sub></td>
+<td align="left"><img src="examples/heterogeneous-2/reference/motif-evolution.gif" width="250"><br><sub><b>Heterogenous Nucelation of polymorph 2 (heterogeneous-2)</b></sub></td>
+<td align="left"><img src="examples/heterogeneous-3/reference/motif-evolution.gif" width="250"><br><sub><b>Heterogenous Nucelation of polymorph 3 (heterogeneous-3)</b></sub></td>
 <!--<td align="left"><img src="examples/heterogeneous-4/reference/motif-evolution.gif" width="300"><br><sub><b>heterogeneous-4</b><sub></td>-->
 </tr>
 <tr>

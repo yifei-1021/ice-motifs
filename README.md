@@ -4,13 +4,13 @@
 
 ---
 
-### Trajectories coloured by motif labels determined by vector-quantization of the VAE's latent embeddings.
+### Below, we show simulation trajectories colored by motif labels determined by vector-quantization of the variational autoencoder (VAE)'s embeddings.
 
 <table>
 <tr>
-<td align="left"><img src="examples/heterogeneous-1/reference/motif-evolution.gif" width="250"><br><sub><b>Heterogenous Nucelation of polymorph 1 (heterogeneous-1)</b></sub></td>
-<td align="left"><img src="examples/heterogeneous-2/reference/motif-evolution.gif" width="250"><br><sub><b>Heterogenous Nucelation of polymorph 2 (heterogeneous-2)</b></sub></td>
-<td align="left"><img src="examples/heterogeneous-3/reference/motif-evolution.gif" width="250"><br><sub><b>Heterogenous Nucelation of polymorph 3 (heterogeneous-3)</b></sub></td>
+<td align="left"><img src="examples/heterogeneous-1/reference/motif-evolution.gif" width="250"><br><sub><b>Heterogenous Nucleation of polymorph 1 (heterogeneous-1)</b></sub></td>
+<td align="left"><img src="examples/heterogeneous-2/reference/motif-evolution.gif" width="250"><br><sub><b>Heterogenous Nucleation of polymorph 2 (heterogeneous-2)</b></sub></td>
+<td align="left"><img src="examples/heterogeneous-3/reference/motif-evolution.gif" width="250"><br><sub><b>Heterogenous Nucleation of polymorph 3 (heterogeneous-3)</b></sub></td>
 <!--<td align="left"><img src="examples/heterogeneous-4/reference/motif-evolution.gif" width="300"><br><sub><b>heterogeneous-4</b><sub></td>-->
 </tr>
 <tr>

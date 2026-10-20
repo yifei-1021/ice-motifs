@@ -11,7 +11,7 @@
 <td align="left"><img src="examples/heterogeneous-1/reference/motif-evolution.gif" width="300"><br><sub><b>heterogeneous-1</b></sub></td>
 <td align="left"><img src="examples/heterogeneous-2/reference/motif-evolution.gif" width="300"><br><sub><b>heterogeneous-2</b></sub></td>
 <td align="left"><img src="examples/heterogeneous-3/reference/motif-evolution.gif" width="300"><br><sub><b>heterogeneous-3</b></sub></td>
-<td align="left"><img src="examples/heterogeneous-4/reference/motif-evolution.gif" width="300"><br><sub><b>heterogeneous-4</b></sub></td>
+<!--<td align="left"><img src="examples/heterogeneous-4/reference/motif-evolution.gif" width="300"><br><sub><b>heterogeneous-4</b><sub></td>-->
 </tr>
 <tr>
 
@@ -31,7 +31,7 @@
 ## Install Packages
 
 ```bash
-git clone <this repository> && cd icemotifs
+git clone https://github.com/yifei-1021/ice-motifs.git && cd icemotifs
 pip install .
 python -m pytest tools/            #  no trajectory needed
 ```

@@ -1,0 +1,10 @@
+stackingDisordered_20x20x20.melt2.data.1cool_f00000.extxyz.gz
+stackingDisordered_20x20x20.melt2.data.1cool_f00778.extxyz.gz
+stackingDisordered_20x20x20.melt2.data.1cool_f01555.extxyz.gz
+stackingDisordered_20x20x20.melt2.data.1cool_f02333.extxyz.gz
+stackingDisordered_20x20x20.melt2.data.1cool_f03111.extxyz.gz
+stackingDisordered_20x20x20.melt2.data.1cool_f03888.extxyz.gz
+stackingDisordered_20x20x20.melt2.data.1cool_f04666.extxyz.gz
+stackingDisordered_20x20x20.melt2.data.1cool_f05444.extxyz.gz
+stackingDisordered_20x20x20.melt2.data.1cool_f06221.extxyz.gz
+stackingDisordered_20x20x20.melt2.data.1cool_f06999.extxyz.gz

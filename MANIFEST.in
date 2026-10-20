@@ -1,0 +1,10 @@
+include README.md requirements.txt
+# the front page links to these two, so an sdist that carries README.md
+# should carry them as well (the tools themselves stay in the repository)
+include icemotifs/README.md tools/README.md
+# the guides, the system table and the test suite all live in tools/ now;
+# make-deposit.sh is a repository tool and stays out of the sdist
+recursive-include tools *.md *.py
+# the examples' code and prose; the figures, movies and notebooks are in
+# the repository and the deposit tarball, but would treble an sdist
+recursive-include examples *.md *.py

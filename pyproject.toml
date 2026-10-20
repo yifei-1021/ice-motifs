@@ -1,0 +1,70 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "icemotifs"
+version = "0.1.0"
+description = "Hierarchical structural motifs in disorder-order transitions: featurisation, VAE, projection and two-stage clustering"
+readme = "README.md"
+requires-python = ">=3.9"
+# The licence text and the citation live in README.md; there is no
+# separate LICENSE or CITATION.cff file.
+license = { text = "MIT" }
+authors = [
+    { name = "Yifei Yue", email = "yifeiyue@u.nus.edu" },
+    { name = "Lechun Xing" },
+    { name = "Saad Aldin Mohammed" },
+    { name = "Jianwen Jiang" },
+    { name = "N. Duane Loh", email = "duaneloh@nus.edu.sg" },
+]
+keywords = ["molecular-dynamics", "SOAP", "Steinhardt", "VAE",
+            "unsupervised-learning", "ice-nucleation", "supercooled-water"]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Programming Language :: Python :: 3",
+]
+
+# Pins transcribed from requirements.txt, which records the combination that
+# was verified to install and run together. The upper bounds and the comments
+# there are not decoration -- dscribe 2.x renamed the SOAP keywords, ase 3.23
+# changed todict(), and torch 2.6 flipped the default of weights_only in
+# torch.load. compat.py absorbs the last of those; the other two are why the
+# floors are where they are.
+dependencies = [
+    "numpy>=1.24,<3",
+    "scipy>=1.10",
+    "scikit-learn>=1.3",
+    "torch>=2.0",
+    "umap-learn>=0.5.5",
+    "hdbscan>=0.8.40",
+    "ase>=3.23",
+    "dscribe>=2.1",
+    "pyscal3>=3.0",
+    "matplotlib>=3.7",
+    "pandas>=2.0",
+    "networkx>=3.0",
+]
+
+[project.optional-dependencies]
+# stage 5 extras, imported lazily and not available as wheels everywhere
+rings = ["ovito>=3.9"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+icemotifs = "icemotifs.cli:main"
+
+[project.urls]
+# TODO(author): replace ORG with the GitHub owner once the repository exists.
+Repository = "https://github.com/ORG/icemotifs"
+Documentation = "https://github.com/ORG/icemotifs/blob/main/tools/README.md"
+"Source data" = "https://doi.org/10.5281/zenodo.20483266"
+Preprint = "https://doi.org/10.26434/chemrxiv.15004179"
+
+[tool.setuptools]
+packages = ["icemotifs", "icemotifs.pipeline"]
+
+[tool.setuptools.package-data]
+icemotifs = ["py.typed"]

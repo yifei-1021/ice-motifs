@@ -134,7 +134,7 @@ and crystals*, ChemRxiv (preprint), 2026.
 <https://chemrxiv.org/doi/full/10.26434/chemrxiv.15004179>
 
 **Source data.** The trajectories and polymorph datasets are a separate deposit
-with its own DOI: <https://doi.org/10.5281/zenodo.23488444>. 
+with its own DOI: <https://doi.org/10.5281/zenodo.23491439>. 
 
 ```bibtex
 @article{yue2026motifs,

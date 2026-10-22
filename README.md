@@ -58,7 +58,7 @@ Run the notebooks to reproduce our analyses based on our stored results:
 python tools/run-example-notebooks.py --runs-root /path/to/the/runs/tree
 ```
 
-See our trajectory dataset from the deposit: (<https://doi.org/10.5281/zenodo.20483265>).
+See our trajectory dataset from the deposit: (<https://doi.org/10.5281/zenodo.23491439>).
 
 ## Run it on your own trajectory
 
